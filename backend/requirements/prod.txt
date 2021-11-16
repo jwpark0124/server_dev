@@ -1,0 +1,4 @@
+﻿-r common.txt
+django-storages[azure]
+gunicorn
+psycopg2-binary~=2.8.6

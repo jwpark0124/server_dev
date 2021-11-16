@@ -1,0 +1,2 @@
+﻿-r common.txt
+django-debug-toolbar

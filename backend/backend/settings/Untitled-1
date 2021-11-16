@@ -1,0 +1,13 @@
+﻿docker run --rm --publish 9999:80 \
+    -e DJANGO_SETTINGS_MODULE=backend.settings.prod \
+    -e AZURE_ACCOUNT_NAME=jprojectstorage \
+    -e AZURE_ACCOUNT_KEY="RnRehSu2SwGqGIHquwy52kNHPJxqLEFxc+JROjQTxwXXdxDb+VTw+bmd6njVeQEhA5/sFv2aclnsqLEiz3n5ig==" \
+    -e ALLOWED_HOSTS=localhost \
+    -e DB_HOST=jproject.postgres.database.azure.com \
+    -e DB_USER=teddysum@jproject \
+    -e DB_PASSWORD=ts1108!!! \\
+    -e DB_NAME=postgres \
+    jproject
+
+
+docker run --rm --publish 9999:80 -e DJANGO_SETTINGS_MODULE=backend.settings.prod -e AZURE_ACCOUNT_NAME=jprojectstorage -e AZURE_ACCOUNT_KEY="RnRehSu2SwGqGIHquwy52kNHPJxqLEFxc+JROjQTxwXXdxDb+VTw+bmd6njVeQEhA5/sFv2aclnsqLEiz3n5ig=="  -e ALLOWED_HOSTS=localhost -e DB_HOST=jproject.postgres.database.azure.com -e DB_USER=teddysum@jproject -e DB_PASSWORD=teddy1108!!! -e DB_NAME=postgres jwpark0124/jprojecrt
